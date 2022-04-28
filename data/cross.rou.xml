@@ -1,0 +1,20 @@
+<routes>
+
+        <vType id="VehicleA" accel="3.5" decel="5.0" sigma="0" length="5" maxSpeed="15.0" speedFactor="1.0" minGap="0.0"
+        guiShape="passenger" speedDev="0" tau="0.1"/>
+        
+
+        <route id="route_WE" edges="L1 L2 L11 L12" />
+        <route id="route_WN" edges="L1 L2 L15 L16" />
+        <route id="route_WS" edges="L1 L2 L7 L8" />
+        <route id="route_EW" edges="L9 L10 L3 L4" />
+        <route id="route_EN" edges="L9 L10 L15 L16" />
+        <route id="route_ES" edges="L9 L10 L7 L8" />
+        <route id="route_NE" edges="L13 L14 L11 L12" />
+        <route id="route_NW" edges="L13 L14 L3 L4" />
+        <route id="route_NS" edges="L13 L14 L7 L8" />
+        <route id="route_SE" edges="L5 L6 L11 L12" />
+        <route id="route_SN" edges="L5 L6 L15 L16" />
+        <route id="route_SW" edges="L5 L6 L3 L4" />
+        
+</routes>
